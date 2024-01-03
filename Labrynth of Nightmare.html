@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kalam:wght@400;700&family=Orbitron:wght@700&family=Roboto+Condensed&family=Yatra+One&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+    
+        <div class="text">
+            <h1>Yugioh Vintage Checklist</h1>
+            <p>Welcome to the Vintage Yugioh Checklist, an easy tool that lets you keep track of what you've got and what you need.</p>
+            <p>This database covers the sets released in the original era and includes the original starter decks as well</p>
+        </div>
+    <input type="text" id="search-input" placeholder="Search by Card Name">
+    <table id = "checklist-table">
+    <tr>
+        <td>Card number</td>
+        <td>Name</td>
+        <td>Rarity</td>
+        <td>Category</td>
+        <td></td>
+    </tr>
+   
+    <tr>
+        <td>LON-000</td>
+        <td>Gemini Elf</td>
+        <td>Secret Rare</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-001</td>
+        <td>The Masked Beast</td>
+        <td>Ultra Rare</td>
+        <td>Ritual Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-002</td>
+        <td>Swordsman of Landstar</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-003</td>
+        <td>Humanoid Slime</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-004</td>
+        <td>Worm Drake</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-005</td>
+        <td>Humanoid Worm Drake</td>
+        <td>Common</td>
+        <td>Fusion Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-006</td>
+        <td>Revival Jam</td>
+        <td>Super Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-007</td>
+        <td>Flying Fish</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-008</td>
+        <td>Amphibian Beast</td>
+        <td>Rare</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-009</td>
+        <td>Shining Abyss</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-010</td>
+        <td>Gadget Soldier</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-011</td>
+        <td>Grand Tiki Elder</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-012</td>
+        <td>Melchid the Four-Face Beast</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-013</td>
+        <td>Nuvia the Wicked</td>
+        <td>Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-014</td>
+        <td>Chosen One</td>
+        <td>Common</td>
+        <td>Normal Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-015</td>
+        <td>Mask of Weakness</td>
+        <td>Common</td>
+        <td>Normal Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-016</td>
+        <td>Curse of the Masked Beast</td>
+        <td>Common</td>
+        <td>Ritual Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-017</td>
+        <td>Mask of Dispel</td>
+        <td>Super Rare</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-018</td>
+        <td>Mask of Restrict</td>
+        <td>Ultra Rare</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-019</td>
+        <td>Mask of the Accursed</td>
+        <td>Super Rare</td>
+        <td>Equip Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-020</td>
+        <td>Mask of Brutality</td>
+        <td>Rare</td>
+        <td>Equip Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-021</td>
+        <td>Return of the Doomed</td>
+        <td>Rare</td>
+        <td>Normal Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-022</td>
+        <td>Lightning Blade</td>
+        <td>Common</td>
+        <td>Equip Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-023</td>
+        <td>Tornado Wall</td>
+        <td>Common</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-024</td>
+        <td>Fairy Box</td>
+        <td>Common</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-025</td>
+        <td>Torrential Tribute</td>
+        <td>Ultra Rare</td>
+        <td>Normal Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-026</td>
+        <td>Jam Breeding Machine</td>
+        <td>Rare</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-027</td>
+        <td>Infinite Cards</td>
+        <td>Rare</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-028</td>
+        <td>Jam Defender</td>
+        <td>Common</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-029</td>
+        <td>Card of Safe Return</td>
+        <td>Ultra Rare</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-030</td>
+        <td>Lady Panther</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-031</td>
+        <td>The Unfriendly Amazon</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-032</td>
+        <td>Amazoness Archer</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-033</td>
+        <td>Crimson Sentry</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-034</td>
+        <td>Fire Princess</td>
+        <td>Super Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-035</td>
+        <td>Lady Assailant of Flames</td>
+        <td>Common</td>
+        <td>Flip monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-036</td>
+        <td>Fire Sorcerer</td>
+        <td>Common</td>
+        <td>Flip monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-037</td>
+        <td>Spirit of the Breeze</td>
+        <td>Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-038</td>
+        <td>Dancing Fairy</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-039</td>
+        <td>Fairy Guardian</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-040</td>
+        <td>Empress Mantis</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-041</td>
+        <td>Cure Mermaid</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-042</td>
+        <td>Hysteric Fairy</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-043</td>
+        <td>Bio-Mage</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-044</td>
+        <td>The Forgiving Maiden</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-045</td>
+        <td>St. Joan</td>
+        <td>Common</td>
+        <td>Fusion Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-046</td>
+        <td>Marie the Fallen One</td>
+        <td>Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-047</td>
+        <td>Jar of Greed</td>
+        <td>Super Rare</td>
+        <td>Normal Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-048</td>
+        <td>Scroll of Bewitchment</td>
+        <td>Common</td>
+        <td>Equip Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-049</td>
+        <td>United We Stand</td>
+        <td>Ultra Rare</td>
+        <td>Equip Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-050</td>
+        <td>Mage Power</td>
+        <td>Ultra Rare</td>
+        <td>Equip Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-051</td>
+        <td>Offerings to the Doomed</td>
+        <td>Common</td>
+        <td>Quick-Play Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-052</td>
+        <td>The Portrait&#39;s Secret</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-053</td>
+        <td>The Gross Ghost of Fled Dreams</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-054</td>
+        <td>Headless Knight</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-055</td>
+        <td>Earthbound Spirit</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-056</td>
+        <td>The Earl of Demise</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-057</td>
+        <td>Boneheimer</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-058</td>
+        <td>Flame Dancer</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-059</td>
+        <td>Spherous Lady</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-060</td>
+        <td>Lightning Conger</td>
+        <td>Common</td>
+        <td>Normal Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-061</td>
+        <td>Jowgen the Spiritualist</td>
+        <td>Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-062</td>
+        <td>Kycoo the Ghost Destroyer</td>
+        <td>Super Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-063</td>
+        <td>Summoner of Illusions</td>
+        <td>Common</td>
+        <td>Flip monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-064</td>
+        <td>Bazoo the Soul-Eater</td>
+        <td>Super Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-065</td>
+        <td>Dark Necrofear</td>
+        <td>Ultra Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-066</td>
+        <td>Soul of Purity and Light</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-067</td>
+        <td>Spirit of Flames</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-068</td>
+        <td>Aqua Spirit</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-069</td>
+        <td>The Rock Spirit</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-070</td>
+        <td>Garuda the Wind Spirit</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-071</td>
+        <td>Gilasaurus</td>
+        <td>Rare</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-072</td>
+        <td>Tornado Bird</td>
+        <td>Rare</td>
+        <td>Flip monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-073</td>
+        <td>Dreamsprite</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-074</td>
+        <td>Zombyra the Dark</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-075</td>
+        <td>Supply</td>
+        <td>Common</td>
+        <td>Flip monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-076</td>
+        <td>Maryokutai</td>
+        <td>Common</td>
+        <td>Effect Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-077</td>
+        <td>The Last Warrior from Another Planet</td>
+        <td>Ultra Rare</td>
+        <td>Effect Fusion Monster</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-078</td>
+        <td>Collected Power</td>
+        <td>Common</td>
+        <td>Normal Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-079</td>
+        <td>Dark Spirit of the Silent</td>
+        <td>Super Rare</td>
+        <td>Normal Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-080</td>
+        <td>Royal Command</td>
+        <td>Ultra Rare</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-081</td>
+        <td>Riryoku Field</td>
+        <td>Super Rare</td>
+        <td>Counter Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-082</td>
+        <td>Skull Lair</td>
+        <td>Common</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-083</td>
+        <td>Graverobber&#39;s Retribution</td>
+        <td>Common</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-084</td>
+        <td>Deal of Phantom</td>
+        <td>Common</td>
+        <td>Normal Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-085</td>
+        <td>Destruction Punch</td>
+        <td>Rare</td>
+        <td>Normal Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-086</td>
+        <td>Blind Destruction</td>
+        <td>Common</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-087</td>
+        <td>The Emperor&#39;s Holiday</td>
+        <td>Common</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-088</td>
+        <td>Destiny Board</td>
+        <td>Ultra Rare</td>
+        <td>Continuous Trap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-089</td>
+        <td>&quot;Spirit Message I&quot;&quot;&quot;&quot;&quot;</td>
+        <td>Rare</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-090</td>
+        <td>&quot;Spirit Message N&quot;&quot;&quot;&quot;&quot;</td>
+        <td>Rare</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-091</td>
+        <td>&quot;Spirit Message A&quot;&quot;&quot;&quot;&quot;</td>
+        <td>Rare</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-092</td>
+        <td>&quot;Spirit Message L&quot;&quot;&quot;&quot;&quot;</td>
+        <td>Rare</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-093</td>
+        <td>The Dark Door</td>
+        <td>Common</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-094</td>
+        <td>Spiritualism</td>
+        <td>Rare</td>
+        <td>Normal Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-095</td>
+        <td>Cyclon Laser</td>
+        <td>Common</td>
+        <td>Equip Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-096</td>
+        <td>Bait Doll</td>
+        <td>Common</td>
+        <td>Normal Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-097</td>
+        <td>De-Fusion</td>
+        <td>Super Rare</td>
+        <td>Quick-Play Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-098</td>
+        <td>Fusion Gate</td>
+        <td>Common</td>
+        <td>Field Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-099</td>
+        <td>Ekibyo Drakmord</td>
+        <td>Common</td>
+        <td>Equip Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-100</td>
+        <td>Miracle Dig</td>
+        <td>Common</td>
+        <td>Normal Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-101</td>
+        <td>Dragonic Attack</td>
+        <td>Common</td>
+        <td>Equip Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-102</td>
+        <td>Spirit Elimination</td>
+        <td>Common</td>
+        <td>Normal Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-103</td>
+        <td>Vengeful Bog Spirit</td>
+        <td>Common</td>
+        <td>Continuous Spell</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LON-104</td>
+        <td>Magic Cylinder</td>
+        <td>Secret Rare</td>
+        <td>Normal Trap</td>
+        <td></td>
+    </tr>
+    
+</table>
+
+    <script src="index.js"></script>
+</body>
+</html>
